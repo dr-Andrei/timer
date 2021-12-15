@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "CursedTimerUlil"; 
+    src: url("./fonts/CursedTimerUlil.ttf") format("truetype"); 
+    font-weight: normal;
+    font-style: normal;
+} 
+
+body {
+    text-align: center;
+    background-color: #756e34;
+}
+h1 {
+    font-size: 56px;
+}
+h1 {
+    text-shadow: 1px 1px 1px rgb(54, 53, 35);
+}
+div {
+    font-size: 80px;
+}
+
+.div1 {
+    width: 400px;
+    margin: 20px auto;
+    margin-top: 3%;
+    height: 100px;
+    border: 3px solid #0e0e0e;
+    border-radius: 20px;
+    background-color:#bacabf ;
+    text-align: center;
+    box-shadow: 5px 5px 5px #000;
+}
+.min, .sec {
+    display: inline-block;
+    font-family: 'CursedTimerUlil';
+    vertical-align: middle;
+    padding-bottom: 5px;
+   
+}
+.input_value {
+    font-size: 22px;
+    padding: 0 5px;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+button:active {
+    box-shadow: 1px 1px 4px #000;
+}
+.line_up {
+    width: 100px;
+    height: 7px;
+    background-color: #000000;
+    position: relative;
+    top: -10px;
+    left: 37%;
+}
+.red {
+    color: rgb(102, 3, 3);
+}
